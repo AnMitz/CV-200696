@@ -21,16 +21,16 @@ body {
 
 .resume-header {
     background-color: #5C7B7B;
-    color: #FCFCFC
+    color: #F4F1EE
 }
 
 .resume-main {
-	background-color: #FCFCFC;
+	background-color: #F4F1EE;
 }
 
 .resume-aside {
 	background-color: #F0BC68;
-    color: #FCFCFC
+    color: #F4F1EE
 }
 
 /* Styles for lists in the document */
