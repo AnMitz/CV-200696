@@ -12,6 +12,12 @@ body {
 	background-color: #fcfcfc;
 }
 
+footer {
+    background-color: #E5EDE9;
+    text-align: center;
+    color: #E5EDE9;
+}
+
 .text-header {
     font-family: 'Nunito', sans-serif;
     color:fcfcfc
