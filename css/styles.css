@@ -50,7 +50,7 @@ footer {
 }
 
 .biography-details li::before {
-	color: #79B4BC;
+	color: #F0BC68;
 }
 
 .biography-details li, .skill-list li {
@@ -86,4 +86,9 @@ a:visited {
 
 a:hover {
     color: #5C7B7B;
+}
+
+.dates {
+    color: #79B4BC;
+    font-family: 'Source Code Pro', monospace;
 }
