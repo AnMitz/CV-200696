@@ -67,9 +67,17 @@ body {
 
 .heading-text {
     font-family: 'Source Code Pro', monospace;
-    color: #193B55
+    color: #193B55;
 }
 
-.language-border {
-    background-color: 
+a:link {
+    color: #79B4BC;
+}
+
+a:visited {
+    color: #F4F1EE;
+}
+
+a:hover {
+    color: #5C7B7B;
 }
