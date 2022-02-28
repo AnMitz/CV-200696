@@ -8,7 +8,7 @@
 
 body {
 	font-family: 'Nunito', sans-serif;
-	color: #3A466A;
+	color: #202A29;
 	background-color: #fcfcfc;
 }
 
@@ -20,7 +20,7 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #193B55;
+    background-color: #5C7B7B;
     color: #FCFCFC
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .resume-aside {
-	background-color: #FFBE36;
+	background-color: #F0BC68;
     color: #FCFCFC
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #79B4BC;
 }
 
 .biography-details li, .skill-list li {
@@ -60,7 +60,7 @@ body {
 
 .funky-text {
     font-family:'Source Code Pro', monospace;
-    color: #FFBE36;
+    color: #F0BC68;
     text-align: left;
     font-style: normal;
 }
@@ -68,4 +68,8 @@ body {
 .heading-text {
     font-family: 'Source Code Pro', monospace;
     color: #193B55
+}
+
+.language-border {
+    background-color: 
 }
