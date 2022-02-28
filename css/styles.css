@@ -73,7 +73,17 @@ footer {
 
 .heading-text {
     font-family: 'Source Code Pro', monospace;
-    color: #193B55;
+    color: #202A29;
+}
+
+.more-heading-text {
+    font-family: 'Source Code Pro', monospace;
+    color: #F4F1EE;
+}
+
+.language-text {
+    font-family: 'Source Code Pro', monospace;
+    color: #5C7B7B;
 }
 
 a:link {
