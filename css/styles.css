@@ -3,26 +3,32 @@
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #202030;
-	background-color: #f8f8fc;
+	font-family: 'Nunito', sans-serif;
+	color: #3A466A;
+	background-color: #fcfcfc;
+}
+
+.text-header {
+    font-family: 'Nunito', sans-serif;
+    color:fcfcfc
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #fcfcfc;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #FCFCFC;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #FFBE36;
 }
 
 /* Styles for lists in the document */
@@ -51,8 +57,13 @@ body {
 }
 
 .funky-text {
-    color: #DBBB52;
-    text-align: center;
+    font-family:'Source Code Pro', monospace;
+    color: #FFBE36;
+    text-align: left;
     font-style: normal;
-    text-decoration:none;
+}
+
+.heading-text {
+    font-family: 'Source Code Pro', monospace;
+    color: #193B55
 }
