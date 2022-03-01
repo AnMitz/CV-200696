@@ -44,29 +44,33 @@
         <header> is a semantic element: it works exactly like <div>, but it gives information about the role of the code below.
         The "row" class is used for the Bootstrap grid.
       -->
+        
       <header class="row resume-header justify-content-center">
+          
         <!--
           A container to wrap around the portrait and align it. We use Bootstrap grid columns.
           This constrains the portrait to columns of decreasing sizes
         -->
-          <center>
+        <center>
         <div class="portrait-container col-7 col-sm-3 col-md-3 col-lg-2">
           <!--
             "w-100" makes sure the image takes the full width of the column it's in
             "rounded-circle" cuts a circle around the image
           -->
-          <img class="w-100 rounded-circle my-3" src="images/picture_of_me_new.jpg" alt="Portrait of Anne Mitzer" width="160">
-        </div>
+          <img class="w-100 rounded-circle my-3" src="images/picture_of_me_new.jpg" alt="Portrait of Anne Mitzer" width="160"
+               border="4px fill-light">
+              </div>
           </center>
         <!--
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
-        --><center>
+        --><center class="pb-4">
         <div class="col-10 col-sm-8 col-md-9 col-lg-10 my-0 header-content"> 
           <h1 class="fw-bolder funky-text">ANNE MITZER</h1>
           <h5 class="text-header">Second Year Student Creative Business at Breda University of Applied Science.&nbsp;&nbsp;</h5>
         </div>
-          </center>
-      </header>
+          </center>  
+      </header>      
+        
 
       <!--
         Another row in the Bootstrap grid, for the rest of the résumé.
@@ -104,8 +108,8 @@
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4><strong>Cashier at Albert Heijn</strong></h4>
                     <div class="dates" >
-                  <h6>September 2021&ndash;Now</h6>
-                    <h6>September 2017&ndash;August 2019</h6>
+                  <h6>September 2021 – Now</h6>
+                    <h6>September 2017 – August 2019</h6>
                   </div>
                   <!-- Use the list below to talk about your achievements -->
                   <ul class="biography-details list-unstyled">
@@ -267,7 +271,7 @@
             <ul class="language-list list-unstyled">
                 <div class="aside-container-text">
               <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">Dutch</h5>
+                <h5 class="language-name w-50"><b>Dutch</b></h5>
                 <div class="language-level w-50 border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
                   <div class="language-progress position-absolute bg-light h-100 w-100"></div>
@@ -280,7 +284,7 @@
                 </div>
                 <div class="aside-container-text">
               <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">English</h5>
+                <h5 class="language-name w-50"><b>English</b></h5>
                 <div class="language-level w-50 border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
                   <div class="language-progress position-absolute bg-light h-100 w-75"></div>
@@ -292,7 +296,7 @@
                 </div>
                 <div class="aside-container-text">
               <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">Norwegian</h5>
+                <h5 class="language-name w-50"><b>Norwegian</b></h5>
                 <div class="language-level w-50 border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
                   <div class="language-progress position-absolute bg-light h-100 w-25"></div>

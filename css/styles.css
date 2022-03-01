@@ -20,14 +20,17 @@ footer {
 
 .text-header {
     font-family: 'Nunito', sans-serif;
-    color:fcfcfc
+    color:fcfcfc;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #5C7B7B;
-    color: #F4F1EE
+    background-image:url("../images/rose-petals.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    color: #F4F1EE; 
 }
 
 .resume-main {
@@ -36,7 +39,7 @@ footer {
 
 .resume-aside {
 	background-color: #F0BC68;
-    color: #F4F1EE
+    color: #F4F1EE; 
 }
 
 /* Styles for lists in the document */
@@ -66,7 +69,7 @@ footer {
 
 .funky-text {
     font-family:'Source Code Pro', monospace;
-    color: #F0BC68;
+    color: #F4F1EE;
     text-align: center;
     font-style: normal;
 }
