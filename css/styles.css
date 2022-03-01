@@ -42,7 +42,7 @@ footer {
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
-	content: ">";
+	content: "-";
 	font-weight: 800;
 	display: inline-block;
 	width: 1em;
@@ -82,8 +82,14 @@ footer {
 }
 
 .language-text {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Nunito', sans-serif ;
     color: #5C7B7B;
+    font-weight:700;
+}
+
+.aside-container-text {
+    font-family: 'Nunito', sans-serif ;
+    color:#5C7B7B;
 }
 
 a:link {
