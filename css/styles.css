@@ -26,12 +26,13 @@ footer {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-	align-content: center;
     background-image:url("../images/rose-petals.png");
     background-size: cover;
+	padding: 10px;
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center 100%;
     color: #F4F1EE; 
+	text-align: center;
 }
 
 .resume-main {
@@ -43,6 +44,11 @@ footer {
     color: #F4F1EE; 
 }
 
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	display: block
+}
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
@@ -71,8 +77,8 @@ footer {
 .funky-text {
     font-family:'Source Code Pro', monospace;
     color: #F4F1EE;
-    text-align: center;
     font-style: normal;
+	text-align: center;
 }
 
 .heading-text {
@@ -84,6 +90,7 @@ footer {
 .more-heading-text {
     font-family: 'Source Code Pro', monospace;
     color: #F4F1EE;
+	text-align: center;
 }
 
 .language-text {
@@ -112,4 +119,6 @@ a:hover {
 .dates {
     color: #79B4BC;
     font-family: 'Source Code Pro', monospace;
+}
+.c0l-md-7 {
 }

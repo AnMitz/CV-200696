@@ -45,27 +45,28 @@
         The "row" class is used for the Bootstrap grid.
       -->
         
-      <header class="row resume-header justify-content-center">
+      <header class="column resume-header justify-content-center col-12">
           
         <!--
           A container to wrap around the portrait and align it. We use Bootstrap grid columns.
           This constrains the portrait to columns of decreasing sizes
         -->
  
-        <div class="portrait-container col-7 col-sm-3 col-md-3 col-lg-2">
+        <div class="center portrait-container col-7 col-sm-3 col-md-3 col-lg-2">
           <!--
             "w-100" makes sure the image takes the full width of the column it's in
             "rounded-circle" cuts a circle around the image
-          -->
-          <img class="w-100 rounded-circle my-3 " src="images/picture_of_me_new.jpg" alt="Portrait of Anne Mitzer" width="160">
+          --> 
+			
+          <img class="w-100 rounded-circle my-3" src="images/picture_of_me_new.jpg" alt="Portrait of Anne Mitzer" width="160">
               </div>
          
         <!--
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
         -->
-        <div class="col-10 col-sm-8 col-md-9 col-lg-10 my-4 header-content"> 
+        <div class="my-0 header-content  col-12"> 
           <h1 class="fw-bolder funky-text">ANNE MITZER</h1>
-          <h5 class="text-header">Second Year Student Creative Business at Breda University of Applied Science.&nbsp;&nbsp;</h5>
+          <h5 class="text-header mb-4">Second Year Student Creative Business at Breda University of Applied Science.&nbsp;&nbsp;</h5>
         </div>
       </header>      
         
