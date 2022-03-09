@@ -26,6 +26,7 @@ footer {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
+	align-content: center;
     background-image:url("../images/rose-petals.png");
     background-size: cover;
     background-repeat: no-repeat;
