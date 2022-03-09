@@ -78,6 +78,7 @@ footer {
 .heading-text {
     font-family: 'Source Code Pro', monospace;
     color: #202A29;
+	text-align: center;
 }
 
 .more-heading-text {
