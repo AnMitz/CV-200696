@@ -28,9 +28,10 @@ footer {
 .resume-header {
     background-image:url("../images/rose-petals.png");
     background-size: cover;
+	width: 1345px;
 	padding: 10px;
     background-repeat: no-repeat;
-    background-position: center 100%;
+    background-position-y: center;
     color: #F4F1EE; 
 	text-align: center;
 }
